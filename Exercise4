@@ -1,0 +1,8 @@
+#Write a program that asks the user for a number n and
+# prints the sum of the numbers 1 to n
+
+sum = 0
+n = int(input(" Enter a number:"))
+for i in range(0, n+1):
+    sum = sum + i
+print(sum)
