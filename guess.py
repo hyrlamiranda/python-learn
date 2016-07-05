@@ -6,9 +6,19 @@ import random
 
 N = int(input("The computer, please input N:\n"))
 print("The computer has produced a number, please guess:\n")
-number = random.randint(1, 5)
-guess = int(input())
-if guess > number:
-    print("{0} is Big number.".format(guess))
-elif guess < number:
-    print("{0} is Small number.".format(guess))
+number = random.randint(1, N)
+total = 0
+last_guess = 0
+
+while True:
+    guess = int(input())
+    if last_guess != guess:
+        last_guess = guess
+        total += 1
+    if guess < number:
+        print("Small, please guess again.")
+    elif guess > number:
+        print("Big, please guess again.")
+    else:
+        print("After {0} guesses, Congratulations, you are right!!Finally!!".format(total))
+        break
