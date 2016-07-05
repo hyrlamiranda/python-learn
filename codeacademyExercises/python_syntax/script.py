@@ -53,19 +53,16 @@ mysterious_variable = 42
 # Set count_to equal to the sum of two big numbers
 
 count_to = 4 + 4
-
 print count_to
 
 #exponentiation
 #Set eggs equal to 100 using exponentiation on line 3!
 
 eggs = 10 ** 2
-
 print eggs
 
 #Modulo
 #Set spam equal to 1 using modulo on line 3!
 
 spam = 5%2
-
 print spam
