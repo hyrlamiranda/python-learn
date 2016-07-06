@@ -65,3 +65,40 @@ to the console on line 4!"""
 
 print "Monty Python"
 
+#Declare a variable called the_machine_goes and assign it the string value "Ping!" on line 5.
+#Go ahead and print the_machine_goes in line 6.
+"""Assign the string "Ping!" to
+the variable the_machine_goes on
+line 5, then print it out on line 6!"""
+
+the_machine_goes = "Ping!"
+print the_machine_goes
+
+#Let's give it a try. Print the concatenated strings "Spam ", "and ", "eggs" on line 3, just like the example above.
+#Make sure you include the spaces after "Spam " and "and ".
+print "Spam " + "and " + "eggs"
+
+#Run the code as-is. You get an error!
+#Use str() to turn 3.14 into a string. Then run the code again.
+print "The value of pi is around " + str(3.14) 
+
+#String Formatting with %, Part 1
+string_1 = "Camelot"
+string_2 = "place"
+
+print "Let's not go to %s. 'Tis a silly %s." % (string_1, string_2)
+
+#String Formatting with %, Part 2
+name = raw_input("What is your name?")
+quest = raw_input("What is your quest?")
+color = raw_input("What is your favorite color?")
+
+print "Ah, so your name is %s, your quest is %s, " \
+"and your favorite color is %s." % (name, quest, color)
+
+#create the variable my_string and set it to any string you'd like.
+#print the length of my_string.
+#print the .upper() case version of my_string.
+my_string = "Hyrla"
+print len(my_string)
+print "Hyrla".upper()
