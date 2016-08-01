@@ -121,3 +121,24 @@ for i in range(30):
 	factorial += i 
 print factorial
 #435 
+
+#Basics5 - Exception Handling
+
+try:
+	x = 1.0/0.0
+except ZeroDivisionError:
+	print("Got it! I'm awesome!")
+finally:
+	raise TypeError("Just kidding!")
+#Got it! I'm awesome!
+#Traceback (most recent call last):
+#  File "/...", line 6, in <module>
+#    raise TypeError("Just kidding!")
+#TypeError: Just kidding!
+
+for i in [[1,2,3],[4,5],[6,7]]:
+	for j in i:
+		if(4<j <=6):
+			print(j)
+#5
+#6
