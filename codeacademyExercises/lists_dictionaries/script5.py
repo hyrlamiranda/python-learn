@@ -3,7 +3,7 @@
 
 
 zoo_animals = ["pangolin", "cassowary", "sloth","turtle" ];
-# One animal is missing!
+# One animal is missing!#Mycode
 if len(zoo_animals) > 3:
 	print "The first animal at the zoo is the " + zoo_animals[0]
 	print "The second animal at the zoo is the " + zoo_animals[1]
@@ -34,7 +34,7 @@ zoo_animals[3] = "Cat"
 suitcase = [] 
 suitcase.append("sunglasses")
 
-# Your code here!
+#Mycode
 suitcase = [] 
 suitcase.append("Dresses")
 suitcase.append("underwear")
@@ -76,7 +76,7 @@ print animals # Observe what prints after the insert operation
 my_list = [1,9,3,8,5,7]
 
 for number in my_list:
-    # Your code here
+    #Mycode
     print 2 * number
   
 #Write a for-loop that iterates over start_list and .append()s each number squared (x ** 2) to square_list.
@@ -84,7 +84,7 @@ for number in my_list:
 start_list = [5, 3, 1, 2, 4]
 square_list = []
 
-# Your code here!
+#Mycode
 for start in start_list:
     square_list.append(start ** 2)
     
@@ -97,7 +97,21 @@ residents = {'Puffin' : 104, 'Sloth' : 105, 'Burmese Python' : 106}
 
 print residents['Puffin'] # Prints Puffin's room number
 
-# Your code here!
+#Mycode
 print residents ['Sloth']
 print residents['Burmese Python']
+
+#Add at least three more key-value pairs to the menu variable, with the dish name (as a "string") for the key and the price (a float or integer) as the value.
+
+menu = {} # Empty dictionary
+menu['Chicken Alfredo'] = 14.50 # Adding new key-value pair
+#mycode
+menu['Spam'] = 2.50
+menu['Eggs'] = 4.00
+menu['Bananas'] = 5.00
+
+print "There are " + str(len(menu)) + " items on the menu."
+print menu
+
+
 
