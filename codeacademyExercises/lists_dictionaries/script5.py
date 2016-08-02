@@ -134,3 +134,8 @@ del zoo_animals["Bengal Tiger"]
 zoo_animals["Rockhopper Penguin"] = 'Other place'
 
 print zoo_animals
+
+#Remove 'dagger' from the list of items stored in the backpack variable.
+
+backpack = ['xylophone', 'dagger', 'tent', 'bread loaf']
+backpack.remove("dagger")
