@@ -38,3 +38,18 @@ def fizz_count(x):
 
 print fizz_count(["fizz","cat","fizz"])
 
+# new dictionary called prices using {}
+#mycode
+prices = {
+    "banana": 4,
+    "apple": 2,
+    "orange": 1.5,
+    "pear": 3
+}
+#stock dictionary
+stock = {
+    "banana": 6,
+    "apple": 0,
+    "orange": 32,
+    "pear": 15
+}
