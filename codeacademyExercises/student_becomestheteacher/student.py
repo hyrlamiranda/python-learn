@@ -28,3 +28,10 @@ tyler = {
 
 #Put It Together
 students = [lloyd,alice,tyler]
+
+#For the Record
+for x in students:
+    print x["name"]
+    print x["homework"]
+    print x["quizzes"]
+    print x["tests"]
