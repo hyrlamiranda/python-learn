@@ -53,3 +53,11 @@ stock = {
     "orange": 32,
     "pear": 15
 }
+
+#Keeping Track of the Produce
+for fruits in prices:
+    print fruits
+    print "price: %s" % prices[fruits]
+    print "stock: %s" % stock[fruits]
+
+#Something of Value
