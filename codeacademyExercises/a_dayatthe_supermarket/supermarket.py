@@ -24,3 +24,17 @@ for entry in a:
         print entry
    else:
         pass
+
+#function that counts how many times the string "fizz" appears in a list.
+
+#mycode
+
+def fizz_count(x):
+    count = 0
+    for fizz in x:
+        if fizz == "fizz":
+            count+=1
+    return count
+
+print fizz_count(["fizz","cat","fizz"])
+
