@@ -65,3 +65,7 @@ total = 0
 for fruits in prices:
    total += (stock[fruits] * prices[fruits])
    print total
+
+#list called groceries
+
+groceries = ["banana","orange","apple"]
