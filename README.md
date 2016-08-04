@@ -24,4 +24,4 @@ Elementery
 9.Write a program that computes
 4⋅∑k=1106(−1)k+12k−1=4⋅(1−1/3+1/5−1/7+1/9−1/11…). (computes.py)
 
-MORE EXERCISES FROM https://www.codecademy.com/learn (CodeCademy)
+MORE EXERCISES HERE: https://github.com/hyrlamiranda/python_learn/tree/master/codeacademyExercises FROM https://www.codecademy.com/learn (CodeCademy)
