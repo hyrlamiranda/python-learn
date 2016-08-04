@@ -69,3 +69,13 @@ for fruits in prices:
 #list called groceries
 
 groceries = ["banana","orange","apple"]
+
+#mycode, paying for all of the items on your grocery list.
+#Making a Purchase
+def compute_bill(food):
+    total = 0
+    for item in food:
+        total += prices[item]
+    return total
+
+print compute_bill(groceries)
