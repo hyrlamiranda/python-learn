@@ -61,3 +61,7 @@ for fruits in prices:
     print "stock: %s" % stock[fruits]
 
 #Something of Value
+total = 0
+for fruits in prices:
+   total += (stock[fruits] * prices[fruits])
+   print total
