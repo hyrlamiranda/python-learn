@@ -35,3 +35,11 @@ for x in students:
     print x["homework"]
     print x["quizzes"]
     print x["tests"]
+
+#It's Okay to be Average
+
+#myCode
+def average(numbers):
+    total = sum(numbers) 
+    total = float(total) / len(numbers)
+    return total
