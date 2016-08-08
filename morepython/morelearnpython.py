@@ -142,3 +142,32 @@ for i in [[1,2,3],[4,5],[6,7]]:
 			print(j)
 #5
 #6
+
+#Basics6
+
+def returnTwo():
+	return 20,30
+x,y = returnTwo()
+print(x,y)
+#(20, 30)
+
+def mul(x,y):
+	return x*y
+##FACTORIAL
+print reduce(mul,range(1,11))
+#3628800
+
+def cubeFunc(x):
+	'''Returns the cube of value passed in.'''
+	return x*x*x
+print list(map(cubeFunc,range(1,11)))
+#[1, 8, 27, 64, 125, 216, 343, 512, 729, 1000]
+
+def myAdd(var1,var2 = 10):
+	return var1 + var2
+print(myAdd(7))
+print(myAdd(8,5))
+#17
+#13
+
+
