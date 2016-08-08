@@ -103,11 +103,20 @@ print get_letter_grade(get_average(lloyd))
 #First, make an empty list called results.
 #For each student item in the class list, calculate get_average(student) and then call results.append() with that result.
 #Finally, return the result of calling average() with results.
-
+#myCode
 def get_class_average(students):
     results = []
     for student in students:
         results.append(get_average(student))
     return average(results)
+
+#Finally, print out the result of calling get_class_average with your students list. Your students should be [lloyd, alice, tyler]. 
+#Then, print the result of get_letter_grade for the class's average.
+#myCode
+
+classList = [lloyd, alice, tyler]
+
+print get_class_average(classList) 
+print get_letter_grade(get_class_average(classList))
 
 
