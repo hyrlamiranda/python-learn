@@ -18,3 +18,22 @@ n = [1, 3, 5]
 # Append the number 4 here
 n.append(4)
 print n
+
+
+# Remove the first item in the list here
+n = [1, 3, 5]
+#myCode
+#n.pop(0) #Another way
+#n.remove(0)  #Another way
+del(n[0])
+
+print n
+
+#Change the function so the given argument is multiplied by 3 and returned.
+
+number = 5
+
+def my_function(x):
+    return x * 3
+
+print my_function(number)
