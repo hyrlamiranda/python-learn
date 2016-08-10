@@ -47,3 +47,29 @@ def add_function(x, y):
     return x + y
 
 print add_function(m, n)
+
+#Write a function called string_function that takes in a string argument (s) 
+#and then returns that argument concatenated with the word 'world'.
+
+n = "Hello"
+# Your function here! MyCode
+def string_function(s):
+    return s + "world"
+
+print string_function(n)
+
+#Passing a list to a function
+
+def list_function(x):
+    return x
+
+n = [3, 5, 7]
+print list_function(n)
+
+#Change line 2 so that list_function returns only the item stored in index one of x, rather than the entire x list.
+
+def list_function(x):
+    return x[1]
+
+n = [3, 5, 7]
+print list_function(n)
