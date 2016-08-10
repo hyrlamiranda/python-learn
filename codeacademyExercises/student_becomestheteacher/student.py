@@ -113,7 +113,6 @@ def get_class_average(students):
 #Finally, print out the result of calling get_class_average with your students list. Your students should be [lloyd, alice, tyler]. 
 #Then, print the result of get_letter_grade for the class's average.
 #myCode
-
 classList = [lloyd, alice, tyler]
 
 print get_class_average(classList) 
