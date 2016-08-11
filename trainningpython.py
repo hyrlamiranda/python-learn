@@ -331,7 +331,7 @@ except:
 #may be used in FOR,While, Try/Except instances
 
 try:
-	x = 5 ? "ham"
+	x = 5 + "ham"
 except:
 	pass
 
