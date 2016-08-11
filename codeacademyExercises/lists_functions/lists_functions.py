@@ -73,3 +73,27 @@ def list_function(x):
 
 n = [3, 5, 7]
 print list_function(n)
+
+#Add 3 to the item at index one of the list.
+#Store the result back into index one.
+#Return the list.
+
+def list_function(x):
+    x[1] = x[1] + 3
+    return x
+
+n = [3, 5, 7]
+print list_function(n)
+#result: [3, 8, 7]
+
+#Define a function called list_extender that has one parameter lst.
+#Inside the function, append the number 9 to lst.
+#Then return the modified list.
+#myCode
+n = [3, 5, 7]
+# Add your function here
+def list_extender(lst):
+    lst.append(9)
+    return lst
+
+print list_extender(n)
