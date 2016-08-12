@@ -168,4 +168,23 @@ def join_lists(x,y):
     return x + y
 
 print join_lists(m, n)
-# You want this to print [1, 2, 3, 4, 5, 6]
+#print [1, 2, 3, 4, 5, 6]
+
+#On line 3, define a function called flatten with one argument called lists.
+#Make a new, empty list called results.
+#Iterate through lists. Call the looping variable numbers.
+#Iterate through numbers.
+#For each number, .append() it to results.
+#Finally, return results from your function.
+
+n = [[1, 2, 3], [4, 5, 6, 7, 8, 9]]
+# myCode function here
+def flatten(lists):
+    results = []
+    for numbers in lists:
+        for i in numbers:
+            print results.append(i)
+    return results
+
+print flatten(n)
+
