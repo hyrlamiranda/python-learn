@@ -1,3 +1,4 @@
+# (Challenge) I am going to switch it up a bit and allow you to be the teacher of your own class.
 #Create three dictionaries: lloyd, alice, and tyler.
 #Create three dictionaries: lloyd, alice, and tyler.
 #Give each dictionary the keys "name", "homework", "quizzes", and "tests".
