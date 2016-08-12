@@ -35,7 +35,6 @@ number = 5
 
 def my_function(x):
     return x * 3
-
 print my_function(number)
 
 #Define a function called add_function that has 2 parameters x and y and adds them together.
@@ -45,7 +44,6 @@ n = 13
 # Add add_function here!
 def add_function(x, y):
     return x + y
-
 print add_function(m, n)
 
 #Write a function called string_function that takes in a string argument (s) 
@@ -81,7 +79,6 @@ print list_function(n)
 def list_function(x):
     x[1] = x[1] + 3
     return x
-
 n = [3, 5, 7]
 print list_function(n)
 #result: [3, 8, 7]
@@ -95,7 +92,6 @@ n = [3, 5, 7]
 def list_extender(lst):
     lst.append(9)
     return lst
-
 print list_extender(n)
 
 
@@ -127,7 +123,6 @@ def my_function(x):
     for i in range(0, len(x)):
         x[i] = x[i] * 2
     return x
-
 print my_function(range(3))
 
 #Create a function called total that adds up all the elements of an arbitrary list and returns that count, using the existing code as a hint. 
@@ -154,7 +149,6 @@ def join_strings(words):
     for i in words:
         result +=i
     return result
-
 print join_strings(n)
 
 #On line 4, define a function called join_lists that has two arguments, x and y. They will both be lists.
@@ -166,7 +160,6 @@ n = [4, 5, 6]
 #my code here!
 def join_lists(x,y):
     return x + y
-
 print join_lists(m, n)
 #print [1, 2, 3, 4, 5, 6]
 
@@ -185,6 +178,5 @@ def flatten(lists):
         for i in numbers:
             print results.append(i)
     return results
-
 print flatten(n)
 
