@@ -140,3 +140,32 @@ def total(numbers):
     for i in range(len(numbers)):
         result = result + numbers[i] #result += numbers[i] another way
     return result
+
+
+#Define a function called join_strings accepts an argument called words. It will be a list.
+#Inside the function, create a variable called result and set it to "", an empty string.
+#Iterate through the words list and append each word to result.
+#Finally, return the result.
+
+n = ["Michael", "Lieberman"]
+# Add your function here
+def join_strings(words):
+    result = ""
+    for i in words:
+        result +=i
+    return result
+
+print join_strings(n)
+
+#On line 4, define a function called join_lists that has two arguments, x and y. They will both be lists.
+#Inside that function, return the result of concatenating x and y together.
+
+m = [1, 2, 3]
+n = [4, 5, 6]
+
+#my code here!
+def join_lists(x,y):
+    return x + y
+
+print join_lists(m, n)
+# You want this to print [1, 2, 3, 4, 5, 6]
