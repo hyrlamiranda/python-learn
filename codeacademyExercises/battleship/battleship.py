@@ -19,3 +19,15 @@ def print_board(board):
     for row in board:
         print row
 print print_board(board)
+
+#Inside your function, inside your for loop, use " " as the separator to .join the elements of each row.
+
+board = []
+# range(5) is a shortcut for range(0, 5)
+for i in range(5):
+    board.append(["O"] * 5) 
+def print_board(board):
+    for row in board:
+        #mycode
+        print " ".join(row)
+print print_board(board)
