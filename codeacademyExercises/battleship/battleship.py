@@ -61,3 +61,8 @@ print random_col(board)
 # Add your code below!my code
 guess_row = int(raw_input("Guess Row: "))
 guess_col = int(raw_input("Guess Col: "))
+
+
+#Here I am printing statement that displays the location of the hidden ship
+print ship_col
+print ship_row
