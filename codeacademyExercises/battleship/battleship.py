@@ -66,3 +66,9 @@ guess_col = int(raw_input("Guess Col: "))
 #Here I am printing statement that displays the location of the hidden ship
 print ship_col
 print ship_row
+
+#On line 29, add an if guess_row equals ship_row and guess_col equals ship_col.
+#If that is the case, please print out "Congratulations! You sank my battleship!"
+# Write your code below!My code
+if  guess_row == ship_row and guess_col == ship_col:
+    print " Congratulations! You sank my battleship!"
