@@ -55,3 +55,9 @@ def random_col(board):
     
 print random_row(board)
 print random_col(board)
+
+#Create a new variable called guess_row and set it to int(raw_input("Guess Row: ")).
+#Create a new variable called guess_col and set it to int(raw_input("Guess Col: ")).
+# Add your code below!my code
+guess_row = int(raw_input("Guess Row: "))
+guess_col = int(raw_input("Guess Col: "))
