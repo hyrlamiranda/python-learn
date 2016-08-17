@@ -72,3 +72,12 @@ print ship_row
 # Write your code below!My code
 if  guess_row == ship_row and guess_col == ship_col:
     print " Congratulations! You sank my battleship!"
+#Add an else under the if we wrote in the previous step.
+#Print out "You missed my battleship!"
+#Set the list element at guess_row, guess_col to "X".
+#As the last line in your else statement, call print_board(board) again so you can see the "X".
+#Make sure to enter a col and row that is on the board!
+else: 
+    print "You missed my battleship!"
+    board[int(guess_row)][int(guess_col)] = "X"
+    print_board(board)
