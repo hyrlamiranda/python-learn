@@ -80,4 +80,17 @@ if  guess_row == ship_row and guess_col == ship_col:
 else: 
     print "You missed my battleship!"
     board[int(guess_row)][int(guess_col)] = "X"
-    print_board(board)
+    print_board(board
+
+#Add a new if: statement that is nested under the else.
+#Like the example above, it should check if guess_row is not in range(5) or guess_col is not in range(5).
+#If that is the case, print out "Oops, that's not even in the ocean."
+#After your new if: statement, add an else: that contains your existing handler for an incorrect guess. Don't forget to indent the code!
+
+if guess_row not in range(5) or \
+   guess_col not in range(5):
+        print "Oops, that's not even in the ocean."
+#Add an elif to see if the guessed location already has an 'X' in it.
+#If it has, print "You guessed that one already."
+elif guess_row == guess_col:
+    print "You guessed that one already."
