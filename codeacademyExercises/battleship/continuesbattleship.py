@@ -52,5 +52,6 @@ else:
 #Put it under the else that accounts for misses.
 #Put it after the if/elif/else statements that check for the reason the player missed. We want "Game Over" to print regardless of the reason.
 #If turn equals 3, print "Game Over".
-
+if turn == 3:
+    print "Game Over"
 
