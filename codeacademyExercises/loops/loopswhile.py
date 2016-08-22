@@ -80,14 +80,12 @@ else:
     print "You lose!"
 
 #Make sure to change the number inside of range
-
 print "Counting..."
 
 for i in range(20):
     print i
     
 #Create a for loop that prompts the user for a hobby 3 times, then appends each one to hobbies.
-
 hobbies = []
 
 # my code below!
@@ -95,3 +93,16 @@ for i in range(3):
     hobby = raw_input("What's your hobby?")
     hobbies.append(hobby)
 print hobbies    
+
+
+#Add a second for loop so that each character in word is printed one at a time.
+thing = "spam!"
+
+for c in thing:
+    print c
+
+word = "eggs!"
+
+# my code here!
+for d in word:
+    print d
