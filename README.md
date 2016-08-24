@@ -1,15 +1,6 @@
-             ,-. 
-    ,     ,-.   ,-. 
-   / \   (   )-(   ) 
-   \ |  ,.>-(   )-< 
-    \|,' (   )-(   ) 
-     Y ___`-'   `-' 
-     |/__/   `-' 
-     | 
-     | 
-     |    -hrr- 
-  ___|_____________                                                          
-                                                                                                                                                        
+# Learning Python             
+
+![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")                                                                                                                     
 
 Simple Programming Problems
 
