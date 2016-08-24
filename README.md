@@ -1,6 +1,6 @@
 # Learning Python             
 
-![femalecodertocat](https://octodex.github.com/femalecodertocat.jpg "Femalecoderto cat")
+![femalecodertocat](https://octodex.github.com/images/femalecodertocat.png "Femalecoderto cat")
                                                                                                                    
 
 Simple Programming Problems
