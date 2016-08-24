@@ -1,6 +1,5 @@
 # Learning Python             
 
-![femalecodertocat]( https://octodex.github.com/images/femalecodertocat.png "Femalecoderto cat")
 <a name="femalecodertocat"></a>
 <a href="https://octodex.github.com/images/femalecodertocat.png" class="preview-image">
                 <img height="424" width="424" data-src=" https://octodex.github.com/images/femalecodertocat.png" alt="the Femalecodertocat" src="https://octodex.github.com/images/femalecodertocat.png">
