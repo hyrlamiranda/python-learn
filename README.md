@@ -1,7 +1,11 @@
 # Learning Python             
 
 ![femalecodertocat]( https://octodex.github.com/images/femalecodertocat.png "Femalecoderto cat")
-! <img height="424" width="424" data-src="/images/femalecodertocat.png" alt="the Femalecodertocat" src="/images/femalecodertocat.png">
+<a name="femalecodertocat"></a>
+<a href="/femalecodertocat" class="preview-image">
+                <img height="424" width="424" data-src="/images/femalecodertocat.png" alt="the Femalecodertocat" src="/images/femalecodertocat.png">
+              </a>
+
 
                                                                                                                  
 ##Simple Programming Problems
