@@ -133,3 +133,11 @@ for num in numbers:
 # my code
 for num in numbers:
     print num **2
+
+#On line 5, print the key, followed by a space, followed by the value associated with that key.
+
+d = {'a': 'apple', 'b': 'berry', 'c': 'cherry'}
+
+for key in d:
+    # Code
+    print key, (d[key])    
