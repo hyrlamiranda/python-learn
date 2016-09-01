@@ -183,7 +183,7 @@ else:
     print 'A fine selection of fruits!'
 
 #Build your for/else statement in the editor. Execution of the else branch is optional, but your code should print a string of your choice to the editor regardless.
-country = ['Sweden', 'Norway', 'Iceland', 'Poland', 'Filand', "Ireland", "Switzerland"]
+country = ['Sweden', 'Norway', 'Iceland', 'Poland', 'Filand', 'Ireland', 'Switzerland']
 
 print " Which country would you want to live? "
 for c in country:
