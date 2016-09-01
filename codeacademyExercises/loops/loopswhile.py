@@ -135,7 +135,6 @@ for num in numbers:
     print num **2
 
 #On line 5, print the key, followed by a space, followed by the value associated with that key.
-
 d = {'a': 'apple', 'b': 'berry', 'c': 'cherry'}
 
 for key in d:
@@ -144,7 +143,6 @@ for key in d:
 
 
 #  Compare each pair of elements and print the larger of the two.
-
 list_a = [3, 9, 17, 15, 19]
 list_b = [2, 4, 8, 10, 30, 40, 50, 60, 70, 80, 90]
 
@@ -160,9 +158,7 @@ for a, b in zip(list_a, list_b):
     else:
         print b
 
-
 #For / else
-
 fruits = ['banana', 'apple', 'orange', 'tomato', 'pear', 'grape']
 
 print 'You have...'
@@ -172,4 +168,16 @@ for f in fruits:
         break
     print 'A', f
 else:
-    print 'A fine selection of fruits!'        
+    print 'A fine selection of fruits!'
+
+#Modify the code in the editor such that the for loop's else statement is executed.
+fruits = ['banana', 'apple', 'orange', 'tomato', 'pear', 'grape']
+
+print 'You have...'
+for f in fruits:
+    if f == 'tomato':
+        print 'A tomato is not a fruit!' # (It actually is.)
+    else:   
+        print 'A', f
+else:
+    print 'A fine selection of fruits!'
