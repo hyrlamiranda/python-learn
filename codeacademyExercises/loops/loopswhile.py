@@ -181,3 +181,15 @@ for f in fruits:
         print 'A', f
 else:
     print 'A fine selection of fruits!'
+
+#Build your for/else statement in the editor. Execution of the else branch is optional, but your code should print a string of your choice to the editor regardless.
+country = ['Sweden', 'Norway', 'Iceland', 'Poland', 'Filand']
+
+print " Which country would you want to live? "
+for c in country:
+    if c == "Sweden":
+        print "Best country to live!"
+    else:
+        print " Another is best quality life to live too!"
+else:
+    print "All on the list its good for Live!"
