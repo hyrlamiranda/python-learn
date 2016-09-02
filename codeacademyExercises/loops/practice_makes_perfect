@@ -1,0 +1,11 @@
+#Practice Makes Perfect
+
+pokemon = [ "Pikachu", "Charmander", "Squirtle" ]
+
+print "Which pokemon you want?"
+
+for i in pokemon:
+    if i == "Pikachu":
+        print " Pika pika Pika"
+    else:
+        print " I am not Pikachu"
