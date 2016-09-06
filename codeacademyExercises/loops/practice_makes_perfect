@@ -28,3 +28,12 @@ def is_int(x):
         return True
     else:
         return False
+##Define a function digit_sum 
+#Write a function called digit_sum that takes a positive integer n as input and returns the sum of all that number's digits.
+
+def digit_sum(n):
+    x= 0
+    while n != 0:
+        x += n % 10
+        n = n / 10
+    return x
